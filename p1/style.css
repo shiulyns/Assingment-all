@@ -1,10 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+header{
+    height: 45px;
+    background-color: darkkhaki;
+}
+header nav ul {
+    display: flex;
+    margin-left: 70%;
+    list-style: none;
+   
+}
+header nav ul li  {
+    padding-left: 10%;
+   }
+header a{
+    text-decoration: none;
+    color: brown;
+
+}
+section{
+    height: 100vh;
+    border: 1px solid  grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 178, 74);
+    font-style: italic;
+}
+.container img {
+    height: 300px;
+    border-radius: 50%;
+
+}
+.container h2 {
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+ .container p  ul {
+    margin-top: 2%;
+    font-size: 3rem;
+    background-color: brown;
+    font-style: italic;
+ }
 footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
     background-color: black;
     color: aliceblue;
-    text-align: center;
-    padding: 30px;
-}
+    font-style: italic;
+} }
