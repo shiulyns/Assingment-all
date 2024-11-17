@@ -1,21 +1,10 @@
-*  {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-       height: 40px;
-       background-color: black;
-
-}
-nav ul li a  {
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
     color: aliceblue;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 16px;
-    float: right;
-    font-size: 17px;
     text-align: center;
-    
+    padding: 30px;
 }
